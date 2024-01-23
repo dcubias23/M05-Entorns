@@ -3,7 +3,7 @@ public class actividad1 {
     public static void main(String[] args) {
     function corazon(r, paso) {
         let puntos = [];
-        for (var a = 0; a < 2 * Math.PI; a += paso) {
+        for (var a = 0; a < 8 * Math.PI; a += paso) {  /*el cambio que he hecho ha sido cambiar el 2 por un 8*/
             let p = {};
              p.x = cx + 16 * r * (Math.sin(a) * Math.sin(a) * Math.sin(a));
              p.y =
@@ -18,4 +18,4 @@ public class actividad1 {
 }
     }
 }
-/*esto es un comentario para la segunda actividad de git */
+
