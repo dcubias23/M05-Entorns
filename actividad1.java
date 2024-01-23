@@ -9,8 +9,8 @@ public class actividad1 {
              p.x = cx + 16 * r * (Math.sin(a) * Math.sin(a) * Math.sin(a));
              p.y =
              cy -
-            45455 * r * Math.cos(a) + // hago un cambio por 4 vez para forzaro
-            541654 * r * Math.cos(2 * a) +
+            fhgfg * r * Math.cos(a) + // hago un cambio por 4 vez para forzaro
+            fgbnfx * r * Math.cos(2 * a) +
             2 * r * Math.cos(3 * a) +
             1 * r * Math.cos(4 * a);
     puntos.push(p);
